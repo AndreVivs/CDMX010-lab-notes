@@ -1,0 +1,62 @@
+html {
+  background-color: #e5ede8;
+}
+
+.contenedorGeneral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contenedorSecundario {
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 85vw;
+  height: 90vh;
+}
+
+.buttonSingUp {
+  height: 47px;
+  width: 150px;
+  margin: 25px 0px 25px 600px;
+  color: #fff;
+  background-color: #006d77;
+  border-radius: 15px;
+  font-size: x-large;
+}
+
+.mainImg {
+  height: 30vh;
+  width: 75vw;
+}
+
+.myNoteUntitle {
+  align-self: center;
+  height: 3vh;
+  width: 20vw;
+}
+
+.myNoteText {
+  align-self: center;
+  height: 9vh;
+  width: 20vw;
+}
+
+.buttonSave {
+  height: 47px;
+  width: 150px;
+  color: #fff;
+  background-color: #006d77;
+  border-radius: 15px;
+  font-size: x-large;
+}
+
+.noteContainer {
+  background-color: #006d77;
+  height: 40vh;
+  width: 80vw;
+}
