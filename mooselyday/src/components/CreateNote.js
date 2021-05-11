@@ -14,10 +14,11 @@ const CreateNote = () => {
   };
 
   const handleSubmitNoteFirebase = (dataNote, title, text) => {
+    // usa un if == ""
     db.collection("myDailyNote")
       .add(dataNote)
       .then(function () {
-        NoteWall();
+        setNote({ title: "", text: "" });
       })
       .catch((err) => {
         alert("Error : ", err);
@@ -29,6 +30,7 @@ const CreateNote = () => {
     <Fragment>
       <div className="note">
         <input
+          value={note.title}
           onChange={handleChangeNoteTitle}
           className="myNoteUntitle"
           type="text"
@@ -38,6 +40,7 @@ const CreateNote = () => {
       </div>
       <div>
         <input
+          value={note.text}
           onChange={handleChangeNoteText}
           className="myNoteText"
           type="text"
@@ -54,7 +57,6 @@ const CreateNote = () => {
       >
         SAVE
       </button>
-      <div className="noteContainer" />
     </Fragment>
   );
 };

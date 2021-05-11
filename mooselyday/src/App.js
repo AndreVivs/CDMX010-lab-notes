@@ -2,6 +2,7 @@ import "./assets/css/App.css";
 import cafe from "./assets/img/cafe.jpg";
 // Importando componentes
 import CreateNote from "./components/CreateNote";
+import NoteWall from "./components/NoteWall";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <img alt="imagen de fondo" className="mainImg" src={cafe} />
           </div>
           <CreateNote />
+          <NoteWall />
         </header>
 
         <div className="dailySheetContainer"></div>
