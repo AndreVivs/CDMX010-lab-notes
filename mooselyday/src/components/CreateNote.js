@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import { db } from "../firebase";
-import NoteWall from "./NoteWall";
 
 const CreateNote = () => {
   const [note, setNote] = useState({ title: "", text: "" });

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../firebase";
-
 import Notita from "./Notita";
 
 function NoteWall() {
@@ -17,7 +16,6 @@ function NoteWall() {
   useEffect(() => {
     handleGetNote();
   }, []);
-
   // ayuda; invetigar && y la relacion que tiene con el renderizado
   return (
     <div className="noteContainer">

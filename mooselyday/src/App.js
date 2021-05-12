@@ -18,8 +18,6 @@ function App() {
           <CreateNote />
           <NoteWall />
         </header>
-
-        <div className="dailySheetContainer"></div>
       </div>
     </div>
   );
