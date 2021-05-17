@@ -12,7 +12,7 @@ const CreateNote = () => {
     setNote({ ...note, text: text.target.value });
   };
 
-  const handleSubmitNoteFirebase = (dataNote, title, text) => {
+  const handleSubmitNoteFirebase = (dataNote) => {
     // usa un if == ""
     db.collection("myDailyNote")
       .add(dataNote)

@@ -3,6 +3,7 @@ import cafe from "./assets/img/cafe.jpg";
 // Importando componentes
 import CreateNote from "./components/CreateNote";
 import NoteWall from "./components/NoteWall";
+import Notita from "./components/Notita";
 
 function App() {
   return (
